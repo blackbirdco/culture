@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Culture @ Jam</title>
+
+    <meta name="description" content="Culture @ Jam" />
+		<meta name="author" content="Jam" />
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/jam.css" id="theme">
+
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		  <script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+    <link href="img/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+          <img src="img/logo.png" alt="Logo" class="logo" height="300" />
+          <h1 class="quicksand">jam</h1>
+				</section>
+
+        <section>
+          <h3>Notre mission</h3>
+          <p>
+            <br />
+            Résoudre les problèmes day-to-day des étudiants<br />
+            à l'aide d'un assistant personnel.
+          </p>
+        </section>
+
+        <section>
+          <h3>Timeline</h3>
+          <ol>
+            <li>Lancé à Sciences Po en février 2014</li>
+            <li>Refonte en été</li>
+            <li>Camping début septembre</li>
+            <li>Levée fin décembre</li>
+            <li>Pivot début mars</li>
+          </ol>
+        </section>
+
+        <section>
+          <h3>Nos valeurs</h3>
+          <ul>
+            <li><em>Transparency</em></li>
+            <li><em>Continuous improvement</em></li>
+            <li><em>Ship often</em></li>
+            <li><em>Don't ask permission, ask forgiveness</em></li>
+            <li><em>Done is better than perfect</em></li>
+            <li><em>Focus on creating value</em></li>
+          </ul>
+        </section>
+
+        <section>
+          <img src="img/team.png" alt="L'équipe" height="600" />
+          <h4>L'équipe</h4>
+        </section>
+
+        <section>
+          <img src="img/locaux.png" alt="Locaux" height="600" />
+          <h4>L'environnement</h4>
+        </section>
+
+        <section>
+          <h3>Chill</h3>
+          <div class="col-33">
+            <img src="img/chill1.png" alt="Chill 1" />
+          </div>
+          <div class="col-33">
+            <img src="img/chill2.png" alt="Chill 2" />
+          </div>
+          <div class="col-33">
+            <img src="img/chill3.png" alt="Chill 3" />
+          </div>
+        </section>
+
+        <section>
+          <h3>Tools</h3>
+          <ul>
+            <li><strong>Slack</strong> : Emails killer</li>
+            <li><strong>Github</strong> : Code, bugs, roadmap techs, process...</li>
+            <li><strong>Trello</strong> : MVP, Day 2 Day</li>
+            <li><strong>Sunrise</strong> : who / when / where</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Stack technique</h3>
+          <ul>
+            <li><strong>Archi système</strong> : OVH / Vagrant / Puppet</li>
+            <li><strong>Backend</strong> : Rails / Postgres / Redis</li>
+            <li><strong>Front</strong> : AngularJS</li>
+            <li><strong>Mobile</strong> : ionic</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Tech méthodo</h3>
+          <ul>
+            <li>Test unit, CI et CD</li>
+            <li>Boyscout</li>
+            <li>Code reviews</li>
+            <li>Pair programming</li>
+            <li>Duck debugging</li>
+          </ul>
+        </section>
+
+        <section>
+          <img src="img/ducks.jpg" alt="Ducks" height="600"/>
+          <h4>Ducks, ducks everywhere</h4>
+        </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				theme: Reveal.getQueryHash().theme,
+				transition: 'none',
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+	</body>
+</html>
