@@ -248,6 +248,15 @@ body {
   padding: 5px;
 }
 
+.reveal .bg-img {
+  width: 90%;
+  height: 300px;
+  margin: 5px;
+  background-position: center center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
 .reveal section img {
   background: none;
   border: none;
